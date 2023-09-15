@@ -20,11 +20,11 @@ steps:
       - yarn test
     environment:
       - CI=true
-  MyAppDockerImage:
-    title: Building Docker Image
-    type: build
-    stage: build
-    image_name: react-sample-app
-    working_directory: ./
-    tag: 'with-nginx'
-    dockerfile: Dockerfile
+ # MyAppDockerImage:
+ #   title: Building Docker Image
+ #   type: build
+  #  stage: build
+  #  image_name: react-sample-app
+  #  working_directory: ./
+  #  tag: 'with-nginx'
+  #  dockerfile: Dockerfile
